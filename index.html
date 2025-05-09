@@ -8,50 +8,132 @@
     <!--CDN Link de Bootstrap para acceder a su CSS-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
 </head>
-<nav class="navbar navbar-expand-lg bg-body-tertiary">
-  <div class="container-fluid">
-    <img class="img-logo" src="assets/images/logos/logo-black.png" alt="Logo blanco Cuppon">
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-      <div class="navbar-nav">
-        <a class="nav-link active" aria-current="page" href="#">Home</a>
-        <a class="nav-link" href="#">Features</a>
-        <a class="nav-link" href="#">Pricing</a>
-        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+
+<header>
+  <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+          <img class="img-logo" src="assets/images/logos/logo-white.png" alt="Logo blanco Cuppon">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ms-auto">
+                  <a class="nav-link" aria-current="page" href="#">Home</a>
+                  <a class="nav-link" href="#">Features</a>
+                  <a class="nav-link" href="#">Pricing</a>
+                  <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              </div>
+          </div>
       </div>
-    </div>
-  </div>
-</nav>
+  </nav>
+</header>
+
 
 <body>
-    <!--CDN Link de Bootstrap para acceder a su bundle de JavaScript-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+  <!-- CDN Link de Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
 
-    <div class="row">
-      <div class="col-sm-6 mb-3 mb-sm-0">
-        <div class="card">
-          <div class="card-body">
-            <h5 class="card-title">Special title treatment</h5>
-            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+  <div class="container my-5">
+      <div class="row">
+        <!-- Tarjeta 1 -->
+          <div class="col-md-6 col-lg-4 mb-4">
+              <div class="card">
+                  <img src="assets/images/plumon.jpg" class="card-img-top" alt="Producto 1">
+                  <div class="card-body">
+                      <h5 class="card-title">Plumón Coral Fleece estampado en modelo y tamaño a eleccion</h5>
+                      <p class="card-text">Plumones Manolino</p>
+                      <p class="card-text">🔻9191 Avenida Vitacura, Chile</p>
+                      <p class="card-text text-success"><strong>$22.990</strong> <span class="text-muted"><s>$45.990</s></span></p>
+                      <a href="#" class="btn btn-primary">Ver más</a>
+                  </div>
+              </div>
           </div>
-        </div>
-      </div>
-      <div class="col-sm-6">
-        <div class="card">
-          <div class="card-body">
-            <h5 class="card-title">Special title treatment</h5>
-            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+
+          <!-- Tarjeta 2 -->
+          <div class="col-md-6 col-lg-4 mb-4">
+              <div class="card">
+                  <img src="assets/images/entrada.jpg" class="card-img-top" alt="Producto 2">
+                  <div class="card-body">
+                      <h5 class="card-title">Entrada para compartir + platos de fondo + postres + bebestibles</h5>
+                      <p class="card-text">V for Vegan</p>
+                      <p class="card-text">🔻777 Jesse Pinkman, Chile</p>
+                      <p class="card-text text-success"><strong>$12.990</strong> <span class="text-muted"><s>$30.990</s></span></p>
+                      <a href="#" class="btn btn-primary">Ver más</a>
+                  </div>
+              </div>
           </div>
+
+          <!-- Tarjeta 3 -->
+          <div class="col-md-6 col-lg-4 mb-4">
+              <div class="card">
+                  <img src="assets/images/Consulta-dentista-autorizaciones-sanitarias.jpg" class="card-img-top" alt="Producto 3">
+                  <div class="card-body">
+                      <h5 class="card-title">Evaluación Integral + blanqueamiento dental led + limpieza + fluoración</h5>
+                      <p class="card-text">Clinica Dental Quijada</p>
+                      <p class="card-text">🔻1342 Blanco Encalada, Chile</p>
+                      <p class="card-text text-success"><strong>$25.990</strong> <span class="text-muted"><s>$300.000</s></span></p>
+                      <a href="#" class="btn btn-primary">Ver más</a>
+                  </div>
+              </div>
+          </div>
+          <!-- Tarjeta 4 -->
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="card">
+                <img src="assets/images/almuerzo.jpg" class="card-img-top" alt="Producto 3">
+                <div class="card-body">
+                    <h5 class="card-title">Colacion para 2 personas + postre (no incluye bebidas)</h5>
+                    <p class="card-text">Suricata almacen</p>
+                    <p class="card-text">🔻1071 Miguel Claro, Chile</p>
+                    <p class="card-text text-success"><strong>$2.100</strong> <span class="text-muted"><s>$4.200</s></span></p>
+                    <a href="#" class="btn btn-primary">Ver más</a>
+                </div>
+            </div>
         </div>
+        <!-- Tarjeta 5 -->
+        <div class="col-md-6 col-lg-4 mb-4">
+          <div class="card">
+              <img src="assets/images/cupon-5.jpg" class="card-img-top" alt="Producto 3">
+              <div class="card-body">
+                  <h5 class="card-title">1, 2 o 4 tickets para Stukids. Elige sucursal</h5>
+                  <p class="card-text">Stukids Centro de Eventos</p>
+                  <p class="card-text">🔻133 El tranque, Chile</p>
+                  <p class="card-text text-success"><strong>$2.500</strong> <span class="text-muted"><s>$4.000</s></span></p>
+                  <a href="#" class="btn btn-primary">Ver más</a>
+              </div>
+          </div>
       </div>
+      <!-- Tarjeta 6 -->
+      <div class="col-md-6 col-lg-4 mb-4">
+        <div class="card">
+            <img src="assets/images/San-Pedro-de-Atacama.jpg" class="card-img-top" alt="Producto 3">
+            <div class="card-body">
+                <h5 class="card-title">San Pedro de Atacama: 1 o 2 noches en alojamiento a elección</h5>
+                <p class="card-text">D-Latam Travel</p>
+                <p class="card-text text-success"><strong>$44.100</strong> <span class="text-muted"><s>$80.200</s></span></p>
+                <a href="#" class="btn btn-primary">Ver más</a>
+            </div>
+        </div>
     </div>
-
-    <div>hola</div>
-    <button type="button" class="btn btn-primary">Primary</button>
-
+      </div>
+  </div>
 </body>
+
+<footer>
+  <div class="footer-container">
+      <h4>Recibe cupones en tu correo</h4>
+
+      <form>
+          <div class="form-group">
+              <input type="nombre" class="form-control" placeholder="Nombre">
+          </div>
+          <div class="form-group">
+              <input type="email" class="form-control" placeholder="Correo Electrónico">
+          </div>
+          <button type="enviar" class="btn">Enviar</button>
+      </form>
+
+      <p>© 2018 Cuppon Latam. Todos los derechos reservados.</p>
+  </div>
+</footer>
 
 </html>
